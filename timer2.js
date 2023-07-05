@@ -17,7 +17,7 @@ process.stdin.on('data', (key) => {
 
     setTimeout(() => {
       // process.stdout.write("\x07");
-      process.stdout.write("ALARM!");
+      process.stdout.write("ALARM!\n");
     }, delay);
   };
 
